@@ -1,0 +1,29 @@
+{
+  "expo": {
+    "name": "TimeSve",
+    "slug": "timesve",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "timesve",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FAF8EF",
+    "ios": {
+      "supportsTablet": false
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FAF8EF",
+          "image": "./assets/images/splash-icon.png",
+          "imageWidth": 76
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
